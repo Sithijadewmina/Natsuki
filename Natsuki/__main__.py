@@ -73,7 +73,7 @@ buttons = [
             text="🌺Alexia Updates ", url="https://t.me/AlexiabotUpdats"
         ),
         InlineKeyboardButton(
-            text="👥Alexia Support", url="https://t.me/NatsukiSupport_Official"
+            text="👥Alexia Support", url=https://t.me/AlexiabotDiscussion"
         ),
     ],
     [
