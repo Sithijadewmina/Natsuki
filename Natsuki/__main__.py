@@ -73,7 +73,7 @@ buttons = [
             text="🌺Alexia Updates ", url="https://t.me/AlexiabotUpdats"
         ),
         InlineKeyboardButton(
-            text="👥Alexia Support", url=https://t.me/AlexiabotDiscussion"
+            text="👥Alexia Support", url="https://t.me/AlexiabotDiscussion"
         ),
     ],
     [
@@ -92,10 +92,10 @@ buttons = [
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg"
+NATSUKI_IMG = "https://telegra.ph/file/430bdf3538d6796a97243.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/430bdf3538d6796a97243.jpg)
 
 /start: Starts me! You've probably already used this.
 /help: Click this, I'll let you know about myself!
@@ -110,8 +110,8 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKARA](t.me/Itz_Sadew)"""
+You can donate to the Code editor's of the cloned code,
+Support them  [Sithija Dewmina](t.me/Its_me_sithija)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -309,7 +309,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*🌺• Help  for  {}  module •🌺*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -481,13 +481,13 @@ def Natsuki_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
-            f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Natsuki Updates team spending many sleepless nights.. So, Respect it."
-            f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
-            f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
-            f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of TheNatsukiBot we are not resposible for anything."
+            f"\n🌺 We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
+            f"\n🌺 Always try to keep credits, so \n  This hardwork is done by Natsuki Updates team spending many sleepless nights.. So, Respect it."
+            f"\n🌺 Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
+            f"\n🌺 If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
+            f"\n🌺 If you asking nonsense in Support \n  Chat, you will get warned/banned."
+            f"\n🌺 All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
+            f"\n🌺 We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of TheNatsukiBot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
