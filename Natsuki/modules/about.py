@@ -1,21 +1,22 @@
 #    Project By TeamNatsuki
 
 __help__ = """
-** ✨ Natsuki - A Powerful Telegram Group Manager ✨ **
+** 🌺Alexia is the one of best telegram group management bot **
 
 Powerful Abilities
+🌺Easy logo Designer✍️
 
-• Group Voice Chat Music Play ❤️
+🌺 Group Voice Chat Music Play 
 
-• File To Link and URL Upload 📂
+🌺 File To Link and URL Upload 📂
 
-• Youtube Downloader 🎵
+🌺 Youtube Downloader 🎵
 
-• Channel Music Play 🎵
+🌺 Channel Music Play 🎵
 
-Developer [SADEW JAYASEKARA](https://t.me/Itz_Sadew)
+Developer [SITHIJ ADEWMINA](https://t.me/Its_me_sithija)
 
-Support Group [Support](https://t.me/NatsukiSupport_Official)
+Support Group [Support]( https://t.me/AlexiabotDiscussion)
 
 """
-__mod_name__ = "About ⚡"
+__mod_name__ = "🌺About"
