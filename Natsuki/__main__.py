@@ -70,8 +70,7 @@ Add me to your group and control it like a pro!
 buttons = [
       [
         InlineKeyboardButton(
-            text="Help and commands",
-            url="t.me/TheAlexiabot?startgroup=true",
+            text="⁉️Help and commands⁉️", callback_data="help_back",
         ),
     ],
     [
@@ -84,15 +83,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"
+            text="📚Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"
         ),
         InlineKeyboardButton(
-            text="Command Help ❓", callback_data="help_back"
+            text="🌺About", callback_data="aboutmanu_"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add To Me Your Group ➕",
+            text="➕ Add Alexia To Your Group ➕",
             url="t.me/TheAlexiabot?startgroup=true",
         ),
     ],
@@ -377,8 +376,8 @@ def Natsuki_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Natsuki Updates.* "
-            f"\n\n Join [NatsukiUpdates](https://t.me/Natsuki_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by AlexiaUpdates.* "
+            f"\n\n Join [Alexia Updates](https://t.me/AlexiabotUpdats) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -411,7 +410,7 @@ def Natsuki_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Natsuki Support](https://t.me/NatsukiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Alexia Discussion](https://t.me/AlexiabotDiscussion).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -429,9 +428,9 @@ def Natsuki_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [SDBOTsInifinity](https://t.me/SDBOTs_Inifinity)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by Sadew Jayasekara"
+            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Nutsuki bot  for the best performance.*"
+            f"\n\nBased on [Alexia Apdates](https://t.me/AlexiabotUpdats)."
+            f"\n\n{dispatcher.bot.first_name}'s source main code was written by edited by [SITHIJA DEWMINA](https://t.me/Its_Me_Sithija) with the help of gaming lasith"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -488,12 +487,12 @@ def Natsuki_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n🌺 We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n🌺 Always try to keep credits, so \n  This hardwork is done by Natsuki Updates team spending many sleepless nights.. So, Respect it."
-            f"\n🌺 Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
+            f"\n🌺 Always try to keep credits, so \n  This hardwork is done by Alexia Update So, Respect it."
+            f"\n🌺 Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>.\n </b>Sadew Jayasekara</b> "
             f"\n🌺 If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n🌺 If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n🌺 All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n🌺 We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of TheNatsukiBot we are not resposible for anything."
+            f"\n🌺 We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of TheAlexiabot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
