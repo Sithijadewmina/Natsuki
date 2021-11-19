@@ -63,8 +63,8 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hello there.I am Aʟᴇxɪᴀ 🌺. A Powerfull Group Manager Bot With more features.
-Add me to your group and control it like a pro! \n <a href="https://telegra.ph/file/28039645300b6516e35f2.jpg">​​</a>
+👋 Hello there.I am [Aʟᴇxɪᴀ 🌺](https://telegra.ph/file/28039645300b6516e35f2.jpg). A Powerfull Group Manager Bot With more features.
+Add me to your group and control it like a pro!
 """
 
 buttons = [
