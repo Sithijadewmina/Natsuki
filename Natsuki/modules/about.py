@@ -14,7 +14,7 @@ Powerful Abilities
 
 🌺 Channel Music Play 🎵
 
-Developer [SITHIJ ADEWMINA](https://t.me/Its_me_sithija)
+✍️Devs \n   ✠[SITHIJ ADEWMINA](https://t.me/Its_me_sithija).\n  ✠[GAMING LASITH](https://t.me/Gaming_Lasith_Updates) 
 
 Support Group [Support]( https://t.me/AlexiabotDiscussion)
 
