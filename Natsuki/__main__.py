@@ -68,6 +68,12 @@ Add me to your group and control it like a pro!
 """
 
 buttons = [
+      [
+        InlineKeyboardButton(
+            text="Help and commands",
+            url="t.me/TheAlexiabot?startgroup=true",
+        ),
+    ],
     [
         InlineKeyboardButton(
             text="🌺Alexia Updates ", url="https://t.me/AlexiabotUpdats"
