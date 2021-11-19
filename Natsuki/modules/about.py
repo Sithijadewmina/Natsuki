@@ -19,4 +19,4 @@ Developer [SITHIJ ADEWMINA](https://t.me/Its_me_sithija)
 Support Group [Support]( https://t.me/AlexiabotDiscussion)
 
 """
-__mod_name__ = "🌺About"
+__mod_name__ = "📚About"
