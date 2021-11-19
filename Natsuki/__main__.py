@@ -64,7 +64,7 @@ from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 👋 Hello there.I am Aʟᴇxɪᴀ 🌺. A Powerfull Group Manager Bot With more features.
-Add me to your group and control it like a pro!
+Add me to your group and control it like a pro! \n <a href="https://telegra.ph/file/28039645300b6516e35f2.jpg">​​</a>
 """
 
 buttons = [
@@ -97,10 +97,10 @@ buttons = [
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/430bdf3538d6796a97243.jpg"
+NATSUKI_IMG = "https://telegra.ph/file/28039645300b6516e35f2.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/430bdf3538d6796a97243.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/28039645300b6516e35f2.jpg)
 
 /start: Starts me! You've probably already used this.
 /help: Click this, I'll let you know about myself!
@@ -430,7 +430,7 @@ def Natsuki_about_callback(update, context):
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Nutsuki bot  for the best performance.*"
             f"\n\nBased on [Alexia Apdates](https://t.me/AlexiabotUpdats)."
-            f"\n\n{dispatcher.bot.first_name}'s source main code was written by edited by [SITHIJA DEWMINA](https://t.me/Its_Me_Sithija) with the help of gaming lasith"
+            f"\n\n{dispatcher.bot.first_name}'s source main code was written by edited by [SITHIJA DEWMINA](https://t.me/Its_Me_Sithija) with the help of [gaming lasith](https://t.me/Gaming_Lasith_Updates)"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
