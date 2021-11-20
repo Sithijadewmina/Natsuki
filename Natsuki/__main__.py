@@ -97,7 +97,7 @@ buttons = [
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/28039645300b6516e35f2.jpg"
+NATSUKI_STICKER = "CAACAgUAAxkBAAIBa2GYRj4LZaZon8dySyBtF_0Hp3t_AAKCBQACq5fAVLeXbjFSvNQ2IgQ"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/28039645300b6516e35f2.jpg)
